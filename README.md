@@ -6,12 +6,12 @@ So This library will provide the authentication module which includes customizab
 Handle all the api call, and erro handling as it by self, still as considering the developer mind set, it has all option to handle the calls and validation manually by its helper functions.
 
 # usage
-`npm i react-native-authenticate-screens --save`
+`npm i react-native-auth-screens --save`
 
 **Login Screen**
 ```
 import React, {useState} from 'react';
-import { LoginScreen } from 'react-native-authenticate-screens';
+import { LoginScreen } from 'react-native-auth-screens';
 
 const App = () => {
   const [backgroundColor, setBackgroundColor] = useState('yellow');
@@ -33,7 +33,7 @@ export default App;
 **Register Screen**
 ```
 import React, {useState} from 'react';
-import { RegisterScreen } from 'react-native-authenticate-screens';
+import { RegisterScreen } from 'react-native-auth-screens';
 
 const App = () => {
   const [backgroundColor, setBackgroundColor] = useState('yellow');
@@ -92,6 +92,6 @@ export default App;
 
 **Function usage**
 ```
-import { AuthFunctions } from 'react-native-authenticate-screens';
+import { AuthFunctions } from 'react-native-auth-screens';
 let token = await AuthFunctions.getUserToken();
 ```
