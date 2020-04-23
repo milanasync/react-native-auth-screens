@@ -1,0 +1,36 @@
+{
+  "name": "react-native-authenticate-screens",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "react": ">= 16.x.x",
+    "react-native": ">= 0.55.x",
+    "react-native-vector-icons": ">= 6.6.0",
+    "react-native-animatable": "^1.3.3",
+    "@react-native-community/async-storage": "^1.9.0",
+    "prop-types": "^15.7.2"
+  },
+  "devDependencies": {
+    "metro-react-native-babel-preset": "^0.59.0"
+  },
+  "keywords": [
+    "react-native auth module",
+    "react-native login screen",
+    "react-native registration screen",
+    "react-native login and registaration in one go"
+  ],
+  "homepage": "https://github.com/milanasync/react-native-auth-screens",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/milanasync/react-native-auth-screens"
+  },
+  "bugs": {
+    "url": "https://github.com/milanasync/react-native-auth-screens/issues",
+    "email": "milanasyncdev@gmail.com"
+  },
+  "license": "ISC"
+}
